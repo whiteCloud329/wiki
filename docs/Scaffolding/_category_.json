@@ -1,0 +1,8 @@
+{
+  "label": "脚手架搭建",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "搭建一个前端脚手架"
+  }
+}
