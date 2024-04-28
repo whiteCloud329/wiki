@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/whiteCloud329/wiki/tree/main/docs',
+            'https://github.com/whiteCloud329/wiki/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/whiteCloud329/wiki/tree/main/blog',
+            'https://github.com/whiteCloud329/wiki/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,7 +58,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: '首页',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -68,11 +68,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '文档',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/whiteCloud329',
           label: 'GitHub',
           position: 'right',
         },
@@ -85,7 +85,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: '文档首页',
               to: '/docs/intro',
             },
           ],
@@ -116,7 +116,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/whiteCloud329/',
             },
           ],
         },
